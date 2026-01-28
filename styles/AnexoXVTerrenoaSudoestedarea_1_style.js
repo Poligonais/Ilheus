@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_AnexoIVPortoVelhoreaC1_12 = function(feature, resolution){
+var style_AnexoXVTerrenoaSudoestedarea_1 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,7 @@ var style_AnexoIVPortoVelhoreaC1_12 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(232,103,60,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 3.268}),fill: new ol.style.Fill({color: 'rgba(232,103,60,0.32941176470588235)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(77,167,57,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 3.268}),fill: new ol.style.Fill({color: 'rgba(77,167,57,0.30980392156862746)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
