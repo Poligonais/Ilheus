@@ -12,7 +12,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([-39.061616, -14.800957, -38.967809, -14.750935], map.getSize());
+map.getView().fit([-39.062560, -14.800743, -38.964064, -14.748220], map.getSize());
 
 //full zooms only
 map.getView().setProperties({constrainResolution: true});
@@ -501,7 +501,7 @@ var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
         titleElement.className = 'top-right-title ol-control';
-        titleElement.innerHTML = '<h2 class="project-title">Poligonal da Área do Porto Organizado deIlhéus</h2>';
+        titleElement.innerHTML = '<h2 class="project-title">Poligonal da Área do Porto Organizado de Ilhéus</h2>';
         return titleElement;
     })(),
     target: 'top-right-container'
